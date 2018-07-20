@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import favicon from '../assets/favicon.ico'
+import logoForOgTags from '../assets/logoForOGTags.png'
 
 import './index.css'
 
@@ -18,6 +19,8 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'bootcamp, coding, job' },
       ]}
     >
+      <meta property="og:title" content="JobCamp" />
+      <meta property="og:image" content={logoForOgTags} />
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href={favicon} />
     </Helmet>

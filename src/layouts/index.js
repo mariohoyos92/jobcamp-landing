@@ -12,6 +12,7 @@ const Layout = ({ children, data }) => (
       title={data.site.siteMetadata.title}
       meta={[{ name: 'keywords', content: 'bootcamp, coding, job' }]}
     >
+    <meta name="twitter:card" content="summary" />
       <meta name="description" content="Are you a bootcamp grad or a company looking to hire them? This is the place for you."/>
       <meta property="og:title" content={data.site.siteMetadata.title} />
       <meta property="og:description"content="Are you a bootcamp grad or a company looking to hire them? This is the place for you."/>

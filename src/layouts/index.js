@@ -17,8 +17,8 @@ const Layout = ({ children, data }) => (
     <meta property="og:image" content={logoForOgTags} />
 <meta property="og:image:secure_url" content={logoForOgTags} />
 <meta property="og:image:type" content="image/png" />
-<meta property="og:image:width" content="400" />
-<meta property="og:image:height" content="300" />
+<meta property="og:image:width" content="1608" />
+<meta property="og:image:height" content="644" />
 <meta property="og:image:alt" content="JobCamp Logo" />
       <meta charSet="utf-8" />
       <link rel="shortcut icon" href={favicon} />

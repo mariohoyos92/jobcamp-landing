@@ -14,6 +14,8 @@ const Layout = ({ children, data }) => (
     >
       <meta name="description" content="Are you a bootcamp grad or a company looking to hire them? This is the place for you."/>
       <meta property="og:title" content={data.site.siteMetadata.title} />
+      <meta property="og:description"content="Are you a bootcamp grad or a company looking to hire them? This is the place for you."/>
+      <meta property="og:type" content="image"/>
     <meta property="og:image" content={logoForOgTags} />
 <meta property="og:image:secure_url" content={logoForOgTags} />
 <meta property="og:image:type" content="image/png" />

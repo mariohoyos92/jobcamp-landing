@@ -10,15 +10,9 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
-      meta={[
-        {
-          name: 'description',
-          content:
-            'Jobcamp is a job board for bootcamp grads to apply to companies that are looking for them',
-        },
-        { name: 'keywords', content: 'bootcamp, coding, job' },
-      ]}
+      meta={[{ name: 'keywords', content: 'bootcamp, coding, job' }]}
     >
+      <meta name="description" content="Are you a bootcamp grad or a company looking to hire them? This is the place for you."/>
       <meta property="og:title" content="JobCamp" />
       <meta property="og:image" content={logoForOgTags} />
       <meta charSet="utf-8" />

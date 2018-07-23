@@ -619,11 +619,7 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 46%;
-  }
-}
+
 /**
  * @license
  * MyFonts Webfont Build ID 3611783, 2018-07-18T10:47:32-0400
@@ -729,4 +725,28 @@ button:hover {
 
 span {
   color: rgba(255, 0, 0, 0.672);
+}
+
+@media (max-width: 715px) {
+  h1 {
+    font-size: 10em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 6em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
 }

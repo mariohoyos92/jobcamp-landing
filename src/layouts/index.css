@@ -741,12 +741,20 @@ span {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   h1 {
     font-size: 6em;
   }
 
   h2 {
-    font-size: 1em;
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  input {
+    width: 55%;
   }
 }

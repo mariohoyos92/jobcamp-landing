@@ -61,6 +61,9 @@ class IndexPage extends Component {
           </h3>
         )}
         {emailError ? <span>Please enter a valid email</span> : ''}
+        <footer>
+          <a href="mailto:hello@jobcamp.io">hello@jobcamp.io</a>
+        </footer>
       </div>
     )
   }

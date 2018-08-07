@@ -689,6 +689,10 @@ img {
   margin-bottom: 0;
 }
 
+img:hover {
+  filter: invert(100%);
+}
+
 p {
   font-size: 1.5em;
   width: 24vw;
@@ -727,6 +731,20 @@ span {
   color: rgba(255, 0, 0, 0.672);
 }
 
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: black;
+}
+
 @media (max-width: 715px) {
   h1 {
     font-size: 10em;
@@ -760,7 +778,7 @@ span {
   }
 
   p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   input {
